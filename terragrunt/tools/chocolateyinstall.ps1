@@ -2,7 +2,7 @@ $ErrorActionPreference = 'Stop'
  
 $packageName = 'terragrunt'
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
-$checksum = 'aff4a5947ea5acf6a04c47d313c208bd8b1a63976ae6b5732fa1b77d50525af9'
+$checksum = '601e11a517813440ad47066d3ea298873440cb3cce214e4c27f70c4fbf39f57e'
 $url      = 'https://github.com/gruntwork-io/terragrunt/releases/download/v0.21.5/terragrunt_windows_amd64.exe'
 $destination = "$toolsPath\terragrunt_windows_amd64.exe"
 
