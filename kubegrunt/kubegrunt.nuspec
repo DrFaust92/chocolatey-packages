@@ -22,7 +22,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- This section is about this package, although id and version have ties back to the software -->
     <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
     <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
-    <id>Kubegrunt</id>
+    <id>Kubergrunt</id>
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
@@ -34,23 +34,23 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>Kubegrunt</title>
+    <title>Kubergrunt</title>
     <authors>gruntwork-io</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>https://github.com/gruntwork-io/kubegrunt</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/kubegrunt.png</iconUrl>-->
+    <projectUrl>https://github.com/gruntwork-io/kubergrunt</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/kubergrunt.png</iconUrl>-->
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
-    <licenseUrl>https://github.com/gruntwork-io/kubegrunt/blob/master/LICENSE.txt</licenseUrl>
+    <licenseUrl>https://github.com/gruntwork-io/kubergrunt/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/gruntwork-io/kubegrunt</projectSourceUrl>
-    <docsUrl>https://github.com/gruntwork-io/kubegrunt</docsUrl>
+    <projectSourceUrl>https://github.com/gruntwork-io/kubergrunt</projectSourceUrl>
+    <docsUrl>https://github.com/gruntwork-io/kubergrunt</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
-    <bugTrackerUrl>https://github.com/gruntwork-io/kubegrunt/issues</bugTrackerUrl>
-    <tags>kubegrunt gruntwork terraform</tags>
+    <bugTrackerUrl>https://github.com/gruntwork-io/kubergrunt/issues</bugTrackerUrl>
+    <tags>kubergrunt gruntwork terraform</tags>
     <summary>Kubergrunt is a standalone go binary with a collection of commands to fill in the gaps between Terraform, Helm, and Kubectl.</summary>
     <description>kubergrunt is a standalone go binary with a collection of commands that attempts to fill in the gaps between Terraform, Helm, and Kubectl for managing a Kubernetes Cluster.</description>
-    <releaseNotes>https://github.com/gruntwork-io/kubegrunt/releases</releaseNotes>
+    <releaseNotes>https://github.com/gruntwork-io/kubergrunt/releases</releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->

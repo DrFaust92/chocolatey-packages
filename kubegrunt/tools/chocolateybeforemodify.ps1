@@ -1,18 +1,18 @@
 ﻿$ErrorActionPreference = "Stop"
-write-host "Attempting to stop any running kubegrunt processes, to allow upgrade"
+write-host "Attempting to stop any running kubergrunt processes, to allow upgrade"
 try
 {
-  $running = get-process kubegrunt
+  $running = get-process kubergrunt
 }
 catch
 {
-  write-host "No running kubegrunt processes to stop"
+  write-host "No running kubergrunt processes to stop"
   $running = @()
 }
   
 if ($running)
 {
-  write-host "Stopping kubegrunt processes"
+  write-host "Stopping kubergrunt processes"
   foreach($p in $running)
   {
     stop-process $p
