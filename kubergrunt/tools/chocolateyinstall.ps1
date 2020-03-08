@@ -2,13 +2,8 @@ $ErrorActionPreference = 'Stop'
  
 $packageName = 'kubergrunt'
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
+$checksum = 'b973add2f07461b43a271b1378dbba1ea6f0a42adc9f29fad87fc0e77098aa46'
 $url      = 'https://github.com/gruntwork-io/kubergrunt/releases/download/v0.5.10/kubergrunt_windows_amd64.exe'
-$destination = "$toolsPath\kubergrunt_windows_amd64.exe"
+$destination = "$toolsPath\kubergrunt.exe"
 
-if (Test-Path "$toolsPath\kubergrunt.exe") {
-  Remove-Item "$toolsPath\kubergrunt.exe"
-  Uninstall-BinFile -Name "kubergrunt" -Path "$toolsPath"
-}
-
-Get-ChocolateyWebFile -PackageName $packageName -FileFullPath $destination -Url64bit $url
-Rename-Item -Path "$toolsPath\kubergrunt_windows_amd64.exe" -NewName "kubergrunt.exe"
+Get-ChocolateyWebFile -PackageName $packageName -FileFullPath $destination -Url64bit $url -Checksum64 $checksum -ChecksumType64 sha256
