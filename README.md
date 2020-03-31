@@ -28,7 +28,7 @@ choco install tfsec
 ```
 
 ## Kubergrunt
-The current version is 0.5.10, install it using choco:
+The current version is 0.5.12, install it using choco:
 ```
 choco install kubergrunt
 ```
