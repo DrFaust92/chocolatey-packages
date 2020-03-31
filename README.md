@@ -38,3 +38,12 @@ The current version is 0.8.6, install it using choco:
 ```
 choco install terraformer
 ```   
+
+
+
+# Calculating SHA256
+
+Calculating SHA256 for packages where not applicable
+```batch
+certUtil -hashfile pathToFileToCheck SHA256
+```
