@@ -34,8 +34,8 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>Terrform-Docs</title>
-    <authors>segement</authors>
+    <title>Terraform-Docs</title>
+    <authors>Segment</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://github.com/segmentio/terraform-docs</projectUrl>
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/terragrunt.png</iconUrl>-->
