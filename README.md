@@ -10,7 +10,7 @@
 
 
 ## Terragrunt
-The current version is 0.23.20, install it using choco:
+The current version is 0.23.27, install it using choco:
 ```
 choco install terragrunt
 ```
@@ -22,7 +22,7 @@ choco install terraform-docs
 ```
 
 ## tfsec
-The current version is 0.19.0, install it using choco:
+The current version is 0.21.0, install it using choco:
 ```
 choco install tfsec
 ```
