@@ -10,7 +10,7 @@
 
 
 ## Terragrunt
-The current version is 0.23.27, install it using choco:
+The current version is 0.23.29, install it using choco:
 ```
 choco install terragrunt
 ```
@@ -28,13 +28,13 @@ choco install tfsec
 ```
 
 ## Kubergrunt
-The current version is 0.5.12, install it using choco:
+The current version is 0.5.13, install it using choco:
 ```
 choco install kubergrunt
 ```
    
 ## Terraformer
-The current version is 0.8.6, install it using choco:
+The current version is 0.8.8, install it using choco:
 ```
 choco install terraformer
 ```   
