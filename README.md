@@ -22,7 +22,7 @@ choco install terraform-docs
 ```
 
 ## tfsec
-The current version is 0.23.0, install it using choco:
+The current version is 0.24.1, install it using choco:
 ```
 choco install tfsec
 ```
