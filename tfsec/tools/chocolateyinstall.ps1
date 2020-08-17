@@ -1,9 +1,9 @@
 $ErrorActionPreference = 'Stop'
 
 $packageName = 'tfsec'
-$checksum = '33305e0b93df13212c249f0bf4143502b17f5a3df7addec499fce29bcc0b881f'
+$checksum = '3e8e74d3735231189e617ef99459c4bd9dd533dbdb1278573a7af55b54686f64'
 $toolsPath = Split-Path $MyInvocation.MyCommand.Definition
-$url = 'https://github.com/liamg/tfsec/releases/download/v0.24.1/tfsec-windows-amd64.exe'
+$url = 'https://github.com/liamg/tfsec/releases/download/v0.25.0/tfsec-windows-amd64.exe'
 $destination = "$toolsPath\tfsec.exe"
 
 Get-ChocolateyWebFile -PackageName $packageName -FileFullPath $destination -Url64bit $url -Checksum64 $checksum -ChecksumType64 sha256
