@@ -10,7 +10,7 @@
 
 
 ## Terragrunt
-The current version is 0.23.40, install it using choco:
+The current version is 0.23.44, install it using choco:
 ```
 choco install terragrunt
 ```
