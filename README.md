@@ -3,8 +3,8 @@
 [Chocolatey](https://chocolatey.org/) Package sources for the following tools:
 
 * [terragrunt](https://github.com/gruntwork-io/terragrunt)
-* [terraform-docs](https://github.com/segmentio/terraform-docs)
-* [tfsec](https://github.com/liamg/tfsec)
+* ~~[terraform-docs](https://github.com/segmentio/terraform-docs)~~
+* ~~[tfsec](https://github.com/liamg/tfsec)~~
 * [kubergrunt](https://github.com/gruntwork-io/kubergrunt)
 * [terraformer](https://github.com/GoogleCloudPlatform/terraformer)
 
@@ -13,18 +13,6 @@
 The current version is 0.23.44, install it using choco:
 ```
 choco install terragrunt
-```
-
-## Terraform-Docs
-The current version is 0.9.1, install it using choco:
-```
-choco install terraform-docs
-```
-
-## tfsec
-The current version is 0.25.0, install it using choco:
-```
-choco install tfsec
 ```
 
 ## Kubergrunt
