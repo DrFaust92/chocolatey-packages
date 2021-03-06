@@ -32,4 +32,4 @@ jobs:
         env:
           SUPER_SECRET: ${{ secrets.API_KEY }}
         with:
-          args: push --apikey %SUPER_SECRET% --source "'https://chocolatey.org/'" D:\a\chocolatey-packages\chocolatey-packages\terragrunt.0.23.44.nupkg        
+          args: push D:\a\chocolatey-packages\chocolatey-packages\terragrunt.0.23.44.nupkg --apikey %SUPER_SECRET% --source "'https://chocolatey.org/'"        
