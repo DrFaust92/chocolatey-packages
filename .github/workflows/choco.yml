@@ -32,4 +32,4 @@ jobs:
           SUPER_SECRET: ${{ secrets.CHOCO_API_KEY }}
         uses: crazy-max/ghaction-chocolatey@v1
         with:
-          args: push -k %SUPER_SECRET% D:\a\chocolatey-packages\chocolatey-packages\terragrunt.0.23.44.nupkg        
+          args: push -k="'%SUPER_SECRET%'" D:\a\chocolatey-packages\chocolatey-packages\terragrunt.0.23.44.nupkg        
