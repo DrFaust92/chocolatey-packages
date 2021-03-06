@@ -25,4 +25,4 @@ jobs:
         name: Choco help
         uses: crazy-max/ghaction-chocolatey@v1
         with:
-          args: -h
+          args: pack terragrunt
