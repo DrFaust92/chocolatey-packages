@@ -22,7 +22,14 @@ jobs:
         name: Checkout
         uses: actions/checkout@v2
       -
-        name: Choco help
+        name: Choco pack
         uses: crazy-max/ghaction-chocolatey@v1
         with:
           args: pack terragrunt\terragrunt.nuspec
+      -
+        name: Choco push
+        env:
+          SUPER_SECRET: ${{ secrets.CHOCO_API_KEY }}
+        uses: crazy-max/ghaction-chocolatey@v1
+        with:
+          args: push -k "%SUPER_SECRET%" D:\a\chocolatey-packages\chocolatey-packages\terragrunt.0.23.44.nupkg        
