@@ -29,5 +29,7 @@ jobs:
       -
         name: Choco push
         uses: crazy-max/ghaction-chocolatey@v1
+        env:
+          SUPER_SECRET: ${{ secrets.API_KEY }}
         with:
-          args: push -k="'${{ secrets.CHOCO_API_KEY }}'" --source "'https://chocolatey.org/'" D:\a\chocolatey-packages\chocolatey-packages\terragrunt.0.23.44.nupkg        
+          args: push -k="'%SUPER_SECRET%'" --source "'https://chocolatey.org/'" D:\a\chocolatey-packages\chocolatey-packages\terragrunt.0.23.44.nupkg        
